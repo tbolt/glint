@@ -20,11 +20,10 @@ everything from `/proc`, `/sys` and `/etc`.
                              
 ```
 
-## Build
+## Install
 
 ```sh
-cargo build --release
-cp target/release/glint ~/.local/bin/
+cargo install --path .
 ```
 
 ## Usage
